@@ -31,5 +31,5 @@ PRIVATE SUBNET
 >      connection\ from\ any\ source\ to\ any\ instance\ on\ the\ network\  
 >      using\ custom\ protocols.
 >      --direction=INGRESS --priority=65534 --source-
->      ranges=10.1.0.0/24,10.1.0.0/24 --action=ALLOW --rules=tcp:8080
+>      ranges=10.1.0.0/24,10.2.0.0/24 --action=ALLOW --rules=tcp:8080
 
