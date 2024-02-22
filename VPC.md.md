@@ -10,7 +10,7 @@ PUBLIC  SUBNET
     gcloud compute networks subnets create subnet-1 --project=game-2048-415105 --description=public\ subnet --range=10.1.0.0/24 --stack-type=IPV4_ONLY --network=game-2048-vpc --region=asia-southeast1
 PRIVATE SUBNET
 
-    gcloud compute networks subnets create subnet-2 --project=game-2048-415105 --description=private-subnet --range=10.1.0.0/24 --stack-type=IPV4_ONLY --network=game-2048-vpc --region=australia-southeast1
+    gcloud compute networks subnets create subnet-2 --project=game-2048-415105 --description=private-subnet --range=10.2.0.0/24 --stack-type=IPV4_ONLY --network=game-2048-vpc --region=australia-southeast1
 
 ## SET FIREWALL RULE
 ### Open port  22  to ssh
